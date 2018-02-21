@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Average Sans";
+  src: url("AverageSans-Regular.ttf");
+}
+
+html {
+  font-family: "Average Sans", sans-serif;
+}
+
+@font-face {
+  font-family: "Goudy Bookletter 1911";
+  src: url("GoudyBookletter1911.ttf");
+}
+
+h1, h2 {
+  font-family: "Goudy Bookletter 1911", serif;
+}
+
+body {
+  font-size: 20px
+  line-height: 1.5
+}
+
+dt {
+  font-size: 1.5em
+}
+
+:lang(ja) {
+  font-family: Osaka, sans-serif;
+}
+
+.term {
+  font-variant-caps: small-caps;
+}
+
+#signed-by {
+  font-variant-caps: small-caps;
+} 
+
+html {
+  background-color: "white";
+}
+
+blockquote, figure {
+  background-color:#FCF7D3;
+}
+
+h1 {
+  color:#CD8C52;
+}
+
+.person {
+  background-color:#DEE8BE;
+}
+#DEE8BE
+
+a:link {
+  color:#0000FF;
+}
+
+a:link {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
+figure {
+  text-align:center;
+}
+
+body {
+  padding-left:2em;
+  padding-right:2em;
+}
