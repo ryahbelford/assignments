@@ -21,9 +21,11 @@ h1, h2, h3 {
 
 /** Header **/
 header {
-    background-color: #6d6fae;
+    background-color: #3F3F73;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 header img {
@@ -37,9 +39,11 @@ nav {
     display: flex;
     justify-content: flex-end;
     height: 2rem;
-    background-color: #6d6fae;
+    background-color: #3F3F73;
     color: white;
     position: relative;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 
 nav div.dropdown {
@@ -48,6 +52,7 @@ nav div.dropdown {
     line-height: 16px;
     width: 15%;
     position: relative;
+      background-color: #3F3F73;
 }
 
 .dropdown-content a {
@@ -55,19 +60,22 @@ nav div.dropdown {
     text-decoration: none;
     color: #eaebf7;
     margin-bottom: .5rem;
+      background-color: #3F3F73;
 }
 
 .dropdown-content {
     display: none;
     background-color: #999acc;
     position: relative;
-    padding: .5rem
+    padding: .5rem;
+          background-color: #3F3F73;
 }
 
 .dropdown:hover .dropdown-content {
     display: block;
     position: absolute;
-    top: 32px
+    top: 32px;
+          background-color: #3F3F73;
 }
 
 div.dropbtn {
@@ -77,12 +85,46 @@ div.dropbtn {
     color: #ffffff;
     text-transform: none;
     cursor: pointer;
+      background-color: #3F3F73;
 }
 
 
 /** Stuff in the main body **/
+main {    
+    padding-left: 6rem;
+    padding-right: 6rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.fables {
+  min-width: 50%;
+  text-align:center;
+  class: hidden;
+}
+
+.hidden 
+{position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;}
+
+.scroll {
+  width:12.5rem;
+}
+
 article p {
     margin-bottom: 1em;
+}
+
+article {
+      text-align: left;
+}
+
+aside {
+  width: 25rem;
 }
 
 .moral {
@@ -96,12 +138,14 @@ article p {
 #about-aesop {
     background-color: #fffbd5;
     padding: 1em;
-    margin-bottom: 2rem
+    margin-bottom: 2rem;
 }
 
 
 /* Footer */
 footer {
     background-color: #cfc354;
-    color: #fffbd5;
+    color: #000000;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
