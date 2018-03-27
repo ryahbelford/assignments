@@ -5,10 +5,6 @@ function renderOutput(output) {
     output_element.innerHTML += "<div>" + output + "</div>"
 }
 
-function dailyHours(hours) {
-  
-}
-
 let hours = [
     "Monday: 9a - 9p",
     "Tuesday: 9a - 9p",
@@ -19,17 +15,18 @@ let hours = [
     "Sunday: closed"
 ];
 
-let original_name = "Monday: 9a - 9p",
-let parts_of_name = hours.split(": ");
-renderOutput(days[0], hours[0]);
+function displayOneDaysHours(one_days_hours) {
+  let parts_of_hours = one_days_hours.split(": ");
+  
+  if (parts_of_hours[0] === "Sunday") {
+    renderOutput("On Sunday the library is closed");
+  } else {
+      renderOutput("On " + parts_of_hours[0] + " the hours are " + parts_of_hours[1])
+  }
+}
 
-days.forEach(displayDays)
-hours.forEach(displayHours);
-
- if (hours.includes('Monday')('Tuesday')('Wednesday')('Thursday')('Friday')('Saturday')) {
-        output = " On" + days + " the hours are" + hours;
-    } else {
-        output = " On Sunday the library is" + hours;
-    }
+function dailyHours(hours) {
+  hours.forEach(displayOneDaysHours);
+}
 
 dailyHours(hours);
