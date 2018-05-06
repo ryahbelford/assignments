@@ -1,0 +1,128 @@
+header {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: red;
+    height: 25px;
+}
+
+header h4 {
+  line-height: 25px;
+  position: absolute;
+  left: 10%;
+  top: 0;
+  line-height: 105px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+  list-style: none;
+  padding-left: 1em;
+  line-height: 25px;
+}
+
+main {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+main img {
+    height: 100px;
+}
+
+main nav ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+main div {
+  display: flex;
+  flex-direction: row;
+}
+
+main div ul {
+  display: flex;
+  flex-direction: column;
+}
+
+main h2 {
+  padding-left: 36%;
+}
+
+div li {
+  list-style: none;
+}
+
+main h3 {
+  padding-left: 10%;
+}
+
+article {
+  width: 78%;
+}
+
+aside {
+  	width:35%;
+}
+
+aside li {
+	list-style: none;
+  padding-left: 30%
+}
+
+footer {
+  	height: 22em;
+  	color: white;
+  	background-color: grey;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+footer div {
+  padding: 25px;
+  text-align: center;
+}
+
+footer div h4 {
+  text-align: left;
+}
+
+footer div p {
+  text-align: left;
+}
+
+footer div a {
+  text-align: left;
+}
+
+footer div form {
+  text-align: left;
+}
+
+footer div input {
+  text-align: left;
+}
+
+footer input {
+	width: 220px;
+	height: 40px;
+}
+
+footer a {
+	color: white
+}
+
+h1 {
+  text-align: center;
+}
+
+article li {
+  list-style: square;
+}
