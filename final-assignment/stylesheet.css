@@ -1,21 +1,30 @@
 header {
     padding-left: 10%;
     padding-right: 10%;
-    background-color: red;
-    height: 25px;
+    background-color: #E00000;
+    height: 25px; 
 }
 
 header h4 {
   line-height: 25px;
   position: absolute;
   left: 10%;
-  top: 0;
   line-height: 105px;
+}
+
+header div {
+    position: absolute;
+    top: -45px;
+    color: white;
 }
 
 header nav ul {
     display: flex;
     justify-content: flex-end;
+}
+
+header a {
+  color: white;
 }
 
 nav li {
@@ -34,31 +43,75 @@ main img {
 }
 
 main nav ul {
+    padding: 0%;
     display: flex;
     justify-content: flex-end;
-    flex-direction: row;
 }
 
 main div {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 main div ul {
   display: flex;
+  flex-direction: row;
+}
+
+.site-links {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.site-links-h1 {
+  padding: 0%;
+  font-size: 20px;
+}
+
+.site-links-ul {
+  display:flex;
+  flex-direction: column;
+  padding: 0%;
+}
+
+.blog-posts {
+  display:flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.blog-posts-h1 {
+  padding-right: 21.5%;
+  font-size: 20px;
+}
+
+.blog-posts-ul {
+  display:flex;
   flex-direction: column;
 }
 
-main h2 {
-  padding-left: 36%;
+h2 {
+  font-size: 20px;
+}
+
+main aside h3 {
+  padding-left: 37%;
+  font-size: 20px;
+}
+
+main aside h4 {
+  padding-left: 37%;
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 16px;
 }
 
 div li {
   list-style: none;
-}
-
-main h3 {
-  padding-left: 10%;
 }
 
 article {
@@ -69,6 +122,16 @@ aside {
   	width:35%;
 }
 
+.mission-ul {
+  display: flex;
+  flex-direction: column;
+}
+
+main aside ul {
+    display: flex;
+    flex-direction: column;
+}
+
 aside li {
 	list-style: none;
   padding-left: 30%
@@ -77,7 +140,7 @@ aside li {
 footer {
   	height: 22em;
   	color: white;
-  	background-color: grey;
+  	background-color: #666666;
 }
 
 .column {
@@ -90,23 +153,7 @@ footer div {
   text-align: center;
 }
 
-footer div h4 {
-  text-align: left;
-}
-
-footer div p {
-  text-align: left;
-}
-
-footer div a {
-  text-align: left;
-}
-
-footer div form {
-  text-align: left;
-}
-
-footer div input {
+footer div h3, h4, h5, p, a, form, input {
   text-align: left;
 }
 
@@ -119,8 +166,13 @@ footer a {
 	color: white
 }
 
+h3 {
+  font-size: 18px;
+}
+
 h1 {
   text-align: center;
+  font-size: 30px;
 }
 
 article li {
