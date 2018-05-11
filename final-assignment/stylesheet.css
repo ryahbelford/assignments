@@ -83,7 +83,7 @@ main div ul {
 }
 
 .blog-posts-h1 {
-  padding-right: 21.5%;
+  padding-right: 56%;
   font-size: 20px;
 }
 
@@ -156,6 +156,14 @@ footer div {
 footer div h3, h4, h5, p, a, form, input {
   text-align: left;
 }
+
+.hidden 
+{position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;}
 
 footer input {
 	width: 220px;
